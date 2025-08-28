@@ -1,0 +1,27 @@
+# Source files
+index.ts
+tsconfig.json
+
+# Development files
+examples/
+node_modules/
+pnpm-lock.yaml
+
+# Build artifacts (keep compiled JS)
+*.tsbuildinfo
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Pulumi project files (not needed for published package)
+Pulumi.yaml
+Pulumi.*.yaml

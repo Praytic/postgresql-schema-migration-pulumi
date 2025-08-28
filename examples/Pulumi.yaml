@@ -1,0 +1,20 @@
+name: postgresql-migrations-example
+runtime: nodejs
+description: Example usage of PostgreSQL Schema Migration Pulumi Provider
+
+config:
+  postgresql:host:
+    description: PostgreSQL server hostname
+    default: localhost
+  postgresql:port:
+    description: PostgreSQL server port
+    default: 5432
+  postgresql:database:
+    description: Database name
+    default: postgres
+  postgresql:username:
+    description: Database username
+    default: postgres
+  postgresql:password:
+    description: Database password
+    secret: true

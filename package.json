@@ -1,0 +1,42 @@
+{
+	"name": "@prayitc/postgresql-schema-migration-pulumi",
+	"version": "1.0.0",
+	"description": "Pulumi custom resource provider that manages PostgreSQL schema migrations",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"index.js.map",
+		"README.md",
+		"package.json"
+	],
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"keywords": [
+		"pulumi",
+		"postgresql",
+		"migrations",
+		"schema",
+		"database"
+	],
+	"author": "Prayitc",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Prayitc/postgresql-schema-migration-pulumi.git"
+	},
+	"dependencies": {
+		"@pulumi/pulumi": "^3.191.0",
+		"pg": "^8.11.3"
+	},
+	"devDependencies": {
+		"@types/pg": "^8.10.9",
+		"typescript": "^5.0.0"
+	},
+	"peerDependencies": {
+		"@pulumi/pulumi": "^3.0.0"
+	}
+}

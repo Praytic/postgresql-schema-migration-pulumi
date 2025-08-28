@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2020",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "lib": [
+            "ES2020"
+        ],
+        "baseUrl": ".",
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

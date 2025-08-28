@@ -1,0 +1,7 @@
+name: postgresql-schema-management
+main: index.ts
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+description: Pulumi provider that manages PostgreSQL schema migrations.

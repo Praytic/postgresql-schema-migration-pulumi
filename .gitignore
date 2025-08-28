@@ -1,0 +1,17 @@
+/bin/
+/node_modules/
+.idea/
+*.iml
+pnpm-lock.yaml
+.roo/
+.roomodes
+.history/
+.memory/
+.context/
+.envrc
+.vscode/
+.run/
+**/*.js
+**/*.d.ts
+**/*.js.map
+
