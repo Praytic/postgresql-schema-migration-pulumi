@@ -3,6 +3,7 @@
 .idea/
 *.iml
 pnpm-lock.yaml
+package-lock.json
 .roo/
 .roomodes
 .history/
