@@ -1,5 +1,5 @@
 {
-	"name": "@prayitc/postgresql-schema-migration-pulumi",
+	"name": "postgresql-schema-migration-pulumi",
 	"version": "1.0.0",
 	"description": "Pulumi custom resource provider that manages PostgreSQL schema migrations",
 	"main": "index.js",
