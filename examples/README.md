@@ -1,6 +1,6 @@
 # PostgreSQL Schema Migration Example
 
-This example demonstrates how to use the `@prayitc/postgresql-schema-migration-pulumi` provider to manage database schema migrations.
+This example demonstrates how to use the `postgresql-schema-migration-pulumi` provider to manage database schema migrations.
 
 ## Prerequisites
 
