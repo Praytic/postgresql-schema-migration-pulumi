@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@pulumi/pulumi": "^3.191.0",
-    "@prayitc/postgresql-schema-migration-pulumi": "^1.0.0"
+    "postgresql-schema-migration-pulumi": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
