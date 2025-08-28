@@ -1,5 +1,5 @@
 /bin/
-/node_modules/
+node_modules/
 .idea/
 *.iml
 pnpm-lock.yaml

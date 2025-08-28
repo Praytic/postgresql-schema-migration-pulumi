@@ -248,9 +248,4 @@ class FileMigrationManager {
   }
 }
 
-const migrations = new FileMigrationManager(path.join(__dirname, "sql"));
-const migrationResources = migrations.createMigrationResources();
-
-const lastMigration = migrations.getMigrationFiles().slice(-1)[0];
-export const currentMigrationVersion = lastMigration ? lastMigration.version : null;
-export const migrationCount = migrationResources.length;
+export { SchemaVersion, FileMigrationManager };

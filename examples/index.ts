@@ -1,5 +1,5 @@
 import * as pulumi from "@pulumi/pulumi";
-import { SchemaVersion, FileMigrationManager } from "@prayitc/postgresql-schema-migration-pulumi";
+import { SchemaVersion, FileMigrationManager } from "postgresql-schema-migration-pulumi";
 import * as path from "path";
 
 const config = new pulumi.Config("postgresql");
